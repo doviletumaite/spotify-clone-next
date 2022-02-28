@@ -5,14 +5,13 @@ import Sidebar from '../components/Sidebar'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-black h-screen overflow-hidden">
       <Head>
         <title>Spotify Next</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
-        {/* sidebar */}
+      <main className=''>
         <Sidebar/>
         {/* center */}
       </main>
